@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint *.js",
     "start": "pm2 start ecosystem.config.js --no-daemon",
-    "deploy": "pm2 deploy production update",
+    "deploy": "pm2 deploy pi update",
     "test": "npm run lint"
   },
   "repository": {

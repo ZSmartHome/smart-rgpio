@@ -26,13 +26,13 @@ module.exports = {
    * http://pm2.keymetrics.io/docs/usage/deployment/
    */
   deploy: {
-    production: {
+    pi: {
       user: 'pi',
       host: 'raspberrypi',
       ref: 'origin/master',
       repo: 'https://github.com/ZSmartHome/smart-rgpio.git',
       path: '/home/pi/smart-rgpio',
-      'post-deploy': 'npm install --production && pm2 pm2 startOrRestart ecosystem.config.js'
+      'post-deploy': 'npm install --production && pm2 pm2 startOrRestart ecosystem.config.js --env production'
     }
   }
 };
