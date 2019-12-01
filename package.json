@@ -1,6 +1,6 @@
 {
-  "name": "smart-rgpio",
-  "version": "1.0.0",
+  "name": "@zeckson/smart-rgpio",
+  "version": "0.0.1",
   "description": "HTTP REST access to Raspberry Pi RGPIO",
   "main": "index.js",
   "scripts": {
