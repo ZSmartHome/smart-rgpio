@@ -30,7 +30,7 @@ module.exports = {
       user: 'pi',
       host: 'raspberrypi',
       ref: 'origin/master',
-      repo: 'git@github.com:ZSmartHome/smart-rgpio.git',
+      repo: 'https://github.com/ZSmartHome/smart-rgpio.git',
       path: '/home/pi/smart-rgpio',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js'
     }
