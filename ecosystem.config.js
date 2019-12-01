@@ -32,7 +32,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'https://github.com/ZSmartHome/smart-rgpio.git',
       path: '/home/pi/smart-rgpio',
-      'post-deploy': 'npm install && pm2 reload ecosystem.config.js'
+      'post-deploy': 'npm install --production && pm2 pm2 startOrRestart ecosystem.config.js'
     }
   }
 };
