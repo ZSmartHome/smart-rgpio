@@ -13,7 +13,7 @@ module.exports = {
       env: {
         NODE_ENV: 'development',
         PORT: 8000,
-        PIN_NUMBER: 7
+        PIN_NUMBER: 4
       },
       env_production: {
         NODE_ENV: 'production'
