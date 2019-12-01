@@ -1,0 +1,29 @@
+{
+  "name": "smart-rgpio",
+  "version": "1.0.0",
+  "description": "HTTP REST access to Raspberry Pi RGPIO",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZSmartHome/smart-rgpio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZSmartHome/smart-rgpio/issues"
+  },
+  "homepage": "https://github.com/ZSmartHome/smart-rgpio#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "node-dht-sensor": "0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "6.7.2",
+    "eslint-config-htmlacademy": "0.5.2"
+  }
+}
